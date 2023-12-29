@@ -23,7 +23,7 @@
 
     --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     --text-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
-    --title-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --title-shadow: 0 2px 5px rgba(0, 0, 0, 0.322);
 }
 
 body, html {
@@ -65,7 +65,7 @@ main {
 
 .formulario h1{
     font-weight: bold;
-    text-shadow: var(--font-padrao);
+    text-shadow: var(--title-shadow);
 }
 
 .formulario p {
@@ -73,12 +73,15 @@ main {
     line-height: 1.5em;
     padding: 15px 0;
     font-size: 12px;
+    text-shadow: var(--text-shadow);
 }
 
 input[type="password"], input[type="email"] {
     background-color: var(--verde);
+    text-indent: 0.25em;
     text-shadow: var(--text-shadow);
-    width: 88%;
+    box-shadow: var(--box-shadow);
+    width: 100%;
     height: 30px;
     margin: 5px 0;
 }
@@ -88,6 +91,14 @@ input[type="submit"] {
     width: 100%;
     padding: 5px;
     margin: 10px 0;
+    border: 1px solid black;
+    background-color: #49a09d3a;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #008a857c;
+    color: white;
 }
 
 .esqueci-senha a {

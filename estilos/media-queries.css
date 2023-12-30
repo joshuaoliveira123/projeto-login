@@ -5,11 +5,12 @@
 @media screen and (min-width:768px) {
     body, html {
         background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
+        background-attachment: fixed;
     }
 
     #login {
-        min-width: 700px;
-        max-height: 450px;
+        width: 700px;
+        height: 450px;
     }
 
     #imagem {
@@ -25,3 +26,18 @@
     }
 }
 
+@media screen and (min-width:1024px) {
+    #login {
+        width: 1000px;
+        height: 500px;
+    }
+
+    #imagem {
+        float: right;
+    }
+
+    #formulario {
+        left: 0;
+        right: 50%
+    }
+}

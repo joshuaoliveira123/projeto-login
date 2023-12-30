@@ -3,4 +3,4 @@
 
  Acesse o link abaixo para ver o projeto em funcionamento:
 
- [CLICK AQUI](https://joshuaoliveira123.github.io/projeto-login/(target="_blank"))
+ [CLICK AQUI](https://joshuaoliveira123.github.io/projeto-login/)

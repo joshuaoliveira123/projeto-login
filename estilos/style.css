@@ -48,9 +48,27 @@ main {
     background: black url(../imagens/imagem-exemplo.jpg) top no-repeat fixed;
     background-size: cover;
     height: 200px;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 #formulario {
     display: block;
     padding: 10px;
+}
+
+.titulo-formulario {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.texto {
+    font-size: 0.8em;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+.strong {
+    color: #49a09d;
 }

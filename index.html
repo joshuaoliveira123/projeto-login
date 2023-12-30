@@ -18,12 +18,23 @@
             <!-- Imagem está nas CSS como background -->
         </div>
         <div id="formulario">
-            <h1>Login</h1>
-            <p>
-                Seja bem-vindo(a) de volta! Faça login para acessar sua conta e não fazer nada, porque isso não funciona realmente!
+            <h1 class="titulo-formulario">Login</h1>
+            <p class="texto">
+                Seja<strong class="strong"> bem-vindo(a)</strong> de volta! Faça login para acessar sua conta e não fazer nada, porque isso não funciona realmente!
             </p>
-            <form action="login.php" method="post">
-
+            <form action="login.php" method="post" autocomplete="on">
+                <div class="campo">
+                    <i class="material-symbols-outlined">email</i>
+                    <input type="email" name="login" id="idLogin" required autocomplete="email" placeholder="seu e-mail" maxlength="30">
+                    <label for="idLogin">Login:</label>
+                </div>
+                <div class="campo">
+                    <i class="material-symbols-outlined">key</i>
+                    <input type="password" name="senha" id="idSenha" required autocomplete="current-password" placeholder="sua senha" minlength="8" maxlength="16">
+                    <label for="idSenha">Senha:</label>
+                </div>
+                <input type="submit" value="Entrar">
+                <a href="#" rel="external" hreflang="pt-br">Esqueci minha senha!</a>
             </form>
         </div>
     </section>

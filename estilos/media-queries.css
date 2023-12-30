@@ -2,6 +2,7 @@
 
 /* Media-queries diversos */
 
+/* TABLET */
 @media screen and (min-width:768px) {
     body, html {
         background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
@@ -9,7 +10,7 @@
     }
 
     #login {
-        width: 700px;
+        width: 80vw;
         height: 450px;
     }
 
@@ -26,6 +27,7 @@
     }
 }
 
+/* DESKTOP */
 @media screen and (min-width:1024px) {
     #login {
         width: 1000px;
@@ -38,6 +40,6 @@
 
     #formulario {
         left: 0;
-        right: 50%
+        right: 40%
     }
 }

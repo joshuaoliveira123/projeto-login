@@ -32,13 +32,14 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    /* Sempre coloque as transformações e transições do codigo no final das configurações de estilo para evitar incompatibilidades entre navegadores. */
+    transform: translate(-50%, -50%); 
     transition: width 0.4s, height 0.4s; /* animação de transição entre propriedades */
     transition-timing-function: ease; /* suaviza a animação de forma constante */
 }
@@ -48,9 +49,9 @@ main {
     background: black url(../imagens/imagem-exemplo.jpg) top no-repeat fixed;
     background-size: cover;
     height: 200px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
     transition-timing-function: ease-out;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 #formulario {

@@ -107,6 +107,12 @@ input[type=email], input[type=password] {
     transform: translateY(-15%);
 }
 
+input[type=email]:focus-within, input[type=password]:focus-within {
+    outline: 2px solid #224b49;
+}
+
+/* :focus-within, é uma pseudo class muito maneira, explorar mais essa função.*/
+
 input[type=submit] {
     font-size: 1em;
     font-weight: bold;

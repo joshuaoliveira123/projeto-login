@@ -11,7 +11,7 @@
 
     #login {
         width: 80vw;
-        height: 450px;
+        height: 340px;
     }
 
     #imagem {
@@ -42,7 +42,7 @@
 @media screen and (min-width:1024px) {
     #login {
         width: 1000px;
-        height: 500px;
+        height: 365px;
     }
 
     #imagem {
